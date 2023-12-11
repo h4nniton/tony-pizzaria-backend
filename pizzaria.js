@@ -106,15 +106,44 @@ var usuario = {
                 id: 1,
                 estado: 'SP',
                 rua: 'Rua Pedro Paulino',
-                barro: 'Jardim Julieta',
-                país: 'Brasil'
+                bairro: 'Jardim Julieta',
+                pais: 'Brasil'
                 }
         },
         {
             id: 2,
             imagem: './img/pedro.webp',
             nome: 'Pedro Gomes Dias',
-            email:
+            email: 'pedro@gomes.com',
+            senha: '1234567',
+            telefone: '11 99999-8888',
+            localizacao: {
+                id: 2,
+                estado: 'SP',
+                rua: 'Rua   Joao Paulino',
+                bairro: 'Jardim Paulista',
+                pais: 'Brasil'
+            }
+        },
+]};
+
+var carrinho = {
+    arrayCarrinho: [
+        {
+            id: 1,
+            produto: '',
+            valorProduto: ''
+        }
+]};
+
+var pagamento = {
+    arrayPagamento: [
+        {
+        id: 1,
+        formaPagamento: '',
+        idCarrinho: 1,
+        idProduto: 1,
+        valorProduto: ''
         }
     ]
 }
