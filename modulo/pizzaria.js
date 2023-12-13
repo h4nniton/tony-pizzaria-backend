@@ -1,3 +1,10 @@
+/*******************************************************************************************
+ * Objetivo: Informações do site Tony Pizzaria 
+ * Data: 05/11/2023
+ * Autor: Emily Crepaldi
+ * Versão: 1.0
+***********************************************************************************************/
+
 var categoria = {
     arrayCategorias: [
         {id: 1, nome: 'pizza salgada'},
